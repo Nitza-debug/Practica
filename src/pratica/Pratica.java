@@ -18,9 +18,9 @@ public class Pratica {
         numero =Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
         
        if(numero < 0)
-           JOptionPane.showMessageDialog(null,"Este numero es negativo "+numero);
+           JOptionPane.showMessageDialog(null,"[Este numero es negativo ]"+numero);
        else
-          JOptionPane.showMessageDialog(null," Este numero es positivo"+numero);
+          JOptionPane.showMessageDialog(null," [Este numero es positivo]"+numero);
        
             
             
